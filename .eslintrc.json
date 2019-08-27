@@ -1,0 +1,15 @@
+{
+    "extends": [
+			"eslint:recommended"
+		],
+    "rules": {
+        "max-len": "warn",
+        "comma-dangle": ["error", {
+            "arrays": "ignore",
+            "objects": "ignore",
+            "imports": "never",
+            "exports": "never",
+            "functions": "ignore"
+        }]
+    }
+}
